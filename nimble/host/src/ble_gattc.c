@@ -65,6 +65,14 @@
  * $definitions / declarations                                               *
  *****************************************************************************/
 
+#ifndef min
+#define min(a, b) ((a)<(b)?(a):(b))
+#endif
+
+#ifndef max
+#define max(a, b) ((a)>(b)?(a):(b))
+#endif
+
 /**
  * The maximum time to wait for a single ATT response.  The spec defines this
  * as the ATT transaction time (Vol. 3, Part F, 3.3.3)
