@@ -1,3 +1,5 @@
+// clang-format off
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -21,6 +23,7 @@
 #define H_LOG_COMMON_
 
 #include <stdint.h>
+#include "syscfg/syscfg.h"
 #include "log_common/ignore.h"
 
 #ifdef __cplusplus
