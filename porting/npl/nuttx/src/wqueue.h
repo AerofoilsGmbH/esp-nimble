@@ -34,8 +34,6 @@ struct wqueue_s
     pthread_cond_t       m_condv;
 };
 
-using namespace std;
-
 template <typename T> class wqueue
 {
     dq_queue_s           m_queue;
